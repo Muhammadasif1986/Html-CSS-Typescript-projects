@@ -1,0 +1,118 @@
+body{
+      margin: 0px;
+      padding: 0px;
+      border: border-box;
+      display: flex;
+      justify-content: center;
+}
+
+.tasbeeh{
+      height: 500px;
+      width: 500px;
+      background-image: url('tasbeehImage.png');
+      background-size: cover;
+      border: 2px solid black;
+      margin-top: 100px;
+     position: absolute;
+
+   
+}
+
+.heading{
+      background-color: rgb(36, 23, 6);
+      width: 150px;
+      height: 30px;
+      border-radius: 5px;
+      margin-top: 50px;
+      margin-left:36% ;
+      color:white;
+      font-size:20px;
+      margin-bottom: 0px;
+
+}
+.text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: arial;
+}
+.screen{
+      position: absolute;
+      height: 107px;
+      top: 84px;
+      margin-left: 21.3%;
+      width: 280px;
+      border-radius: 7px;
+      border:5px solid gold;
+      background-color: grey;
+      font-size: 90px;
+      font-weight: 300;
+      text-align: end;
+      color: white;
+}
+.tittle1{
+      /* display: flex; */
+      position: absolute;
+      top:205px;
+      display: flex;
+      left: 29.8%;
+      
+}
+.tittle{
+      color: white;
+      margin-right: 40px;
+      height: 30px;
+      width: 90px;
+      background-color: rgb(3, 35, 22);
+      display: flex;
+      align-items: center;
+      font-family: arial;
+      color:white;
+      font-size:x-large;
+      justify-content: center;
+      border-radius: 8px;
+}
+.reset-button{
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      top: 260px;
+      left: 325px;
+      border: 2px solid gold;
+      background-color:transparent
+}
+
+.count-button{
+      position: absolute;
+      height: 146px;
+      width: 146px;
+      border-radius: 50%;
+      top: 303px;
+      left: 178px;
+      border: 2px solid gold;
+      background-color:transparent;
+}
+.count-button:hover{
+      
+      border: 5px solid gold;
+}
+.count-button:active{
+     
+      border: 4px solid black 
+}
+.reset-button:hover{
+      
+      border: 5px solid gold;
+}
+.reset-button:active{
+     
+      border: 4px solid black 
+}
+
+@media(min-width:300px)and (max-width:600px){
+      body{
+size-adjust: 100%;
+      }
+}
+
