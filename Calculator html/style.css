@@ -1,0 +1,126 @@
+
+*{
+      margin: 0;
+      font-family: arial;
+      border: border-box;
+      background-color: bisque;
+}
+
+.head{
+      height: 80px;
+      background-color: rgb(23, 23, 32);
+      color: wheat;
+      font-size: xx-large;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+main{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.container{
+      margin-top: 30px;
+      height: 600px;
+      width: 350px;
+      background-color: silver;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 4px solid black;
+      border-left: 5px solid black;
+      box-shadow: 10px 10px 20px 0 rgba(187, 185, 185, 0.736);
+     
+      
+}
+
+.footer{
+      height: 80px;
+      background-color: grey;
+      border-top:2px solid white;
+      font-size: xx-large;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+}
+
+.screen{
+
+      height: 100px;
+      width: 290px;
+      font-size: 3rem;
+      font-weight: 600;
+      border-top: 4px solid red;
+      border-right: 4px solid red;
+      text-align: end;
+    
+}
+
+.container2{
+      margin: 20px;
+      height: 550px;
+      width: 310px;
+      background-color: goldenrod;
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-evenly;
+}
+
+.button{
+      height: 70px;
+      width: 70px;
+      display: inline;
+     justify-content: center;
+     align-items: center;  
+     font-size: 2rem;
+     font-weight: 500;
+     color: white;
+     background-color: rgb(34, 14, 15);
+     border-top: 2px solid wheat;
+     border-left:2px solid wheat;
+}
+.button:active{
+      border-bottom: 2px solid wheat;
+     border-right:2px solid wheat;
+     font-size: 1.8rem;
+}
+.button:focus{
+      color: rgb(239, 137, 12);
+}
+.button:hover{
+      height: 72px;
+      width: 72px;
+      font-size: 2.1rem;
+}
+.equal{
+      height: 70px;
+      width: 140px;
+      font-size: 2rem;
+      font-weight: 500;
+      color: white;
+      background-color: rgb(34, 14, 15);
+      border-top: 2px solid wheat;
+      border-left:2px solid wheat;
+}
+.equal:active{
+      border-bottom: 2px solid wheat;
+     border-right:2px solid wheat;
+     font-size: 1.8rem;
+}
+.equal:focus{
+      color: rgb(239, 137, 12);
+}
+.equal:hover{
+      height: 72px;
+      width: 142px;
+      font-size: 2.1rem;
+}
+

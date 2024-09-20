@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Calculator</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="calculator.js"></script>
+</head>
+<body>
+      <header>
+            
+            <div class="head">M.Asif Calculator Project</div>
+      </header>
+
+      <main>
+      <div class="container">
+            
+      <div class="container2">
+            <div class="display"><input type="text" value="0" class="screen" id="display"></div>
+            <button class="button" value="AC" onclick="all_clear()">AC</button>
+            <button class="button" value="DEL" onclick="del()">DEL</button>
+            <button class="button operator" value="%" onclick="operator('%')">%</button>
+            <button class="button operator" value="/" onclick="operator('/')">/</button>
+            <button class="button" value="7" onclick="NumberClick('7')" >7</button>
+            <button class="button" value="8" onclick="NumberClick('8')">8</button>
+            <button class="button" value="9" onclick="NumberClick('9')">9</button>
+            <button class="button operator" value="*" onclick="operator('*')">*</button>
+            <button class="button" value="4" onclick="NumberClick('4')">4</button>
+            <button class="button" value="5" onclick="NumberClick('5')">5</button>
+            <button class="button" value="6" onclick="NumberClick('6')">6</button>
+            <button class="button operator" value="-" onclick="operator('-')">-</button>
+            <button class="button" value="1" onclick="NumberClick('1')">1</button>
+            <button class="button" value="2" onclick="NumberClick('2')">2</button>
+            <button class="button" value="3" onclick="NumberClick('3')">3</button>
+            <button class="button operator" value="+" onclick="operator('+')">+</button>
+            <button class="button" value="00" onclick="NumberClick('00')">00</button>
+            <button class="button" value="0" onclick="NumberClick('0')">0</button>
+            <button class=" operator equal" value="=" onclick="result()">=</button>
+      </div>
+</div>
+</main>
+<div class="footer">Assignment Complete</div>
+</body>
+</html>
